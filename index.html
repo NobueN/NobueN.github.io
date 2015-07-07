@@ -3,13 +3,47 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content=" Okayama,Photoshop,Illustrator,Fireworks,Dreamweaver,Ruby">
+    <meta name="description" content="This is Nobue Nishi's Portfolio site">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap 101 Template</title>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
-
+    <title> Nobue Nishi's portfolio site</title>
+    <!-- BootstrapのCSS読み込み -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <!-- jQuery読み込み -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- BootstrapのJS読み込み -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <style>
+      .left_part {
+        margin-top:60px;
+        padding: 20px 50px;
+      }
+      p {
+        margin-bottom:30px;
+      }
+    </style>
+  </head>
+  <body style="background:url(image/R0019800s.jpg);">
+    <div class="container">
+      <div class="col-md-6 left_part" style="background-color:rgba(255,255,255,0.5);"><!--　左側　-->
+        <h1>Portfolio</h1>
+        <h2>This is Nobue Nishi's Portfolio site </h2>
+        <p>I was born in Shimonoseki, currently is living in Okayama.<br />
+        I can photoshop and illustrator and Fireworks and Dreamweaver.<br />
+        I am currently studying Ruby on rails at Techacademy.</p>
+          
+        <p>
+        <button type="button" class="btn btn-default" onclick="window.open('test.htm')">message board</button>
+        <button type="button" class="btn btn-default" onclick="window.open('test.htm')">Twitter clone</button>
+        <button type="button" class="btn btn-default" onclick="window.open('https://github.com/NobueN/')">github</button>
+        <!--　以下うごくかどうかわからん
+        <button type="button" class="btn btn-link" onclick="location.href='mailto:nobuen@gmail.com'" >E-mail</button>　-->
+        
+        </p>
+      </div><!--　左側ここまで　-->
+      <div class="col-md-6"><!--　右側　-->
+      
+      </div><!--　右側ここまで　-->
+    </div>
   </body>
 </html>
